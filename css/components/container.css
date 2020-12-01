@@ -1,0 +1,36 @@
+.container{
+	width: 800px;
+	margin: auto;
+}
+
+@media (max-width: 930px){
+	.container{
+		width: 500px;
+	}
+	
+	.sidebar{
+		width: 55px;
+	}
+
+	.page-content{
+		margin-left: 55px;
+	}
+}
+
+@media (max-width: 680px){
+	.container{
+		width: 300px;
+	}
+
+	.sidebar{
+		width: 45px;
+
+	}
+	.sidebar i{
+		font-size: 18px;
+	}
+
+	.page-content{
+		margin-left: 45px;
+	}
+}

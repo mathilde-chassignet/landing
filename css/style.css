@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url("components/sidebar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	padding-top: 20px;
+}
+
+h4{
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
